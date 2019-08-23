@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Max Fullmer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./main.css" />
+	</head>
+	<body>
+		<header>
+			<div id="about">
+				<h1>Max Fullmer</h1>
+				<p>Responsive web app developer for coastal communities</p>
+				<div id="profile-shot"></div>
+				<img onclick="goToPortfolio()" src="./media/icons8-expand-arrow-64.png" alt="click for next section">
+			</div>
+
+			<div id="stick-here"></div>
+
+			<nav id="navbar">
+				<ul id="nav-ul">
+					<li><a href="http://github.com/maxFullmer" target="_blank" rel="noopener noreferrer"><img src="./media/GitHub-Mark-32px.png" alt="GitHub"></a></li>
+					<li><a href="http://www.linkedin.com/in/max-fullmer-247a63157/" target="_blank" rel="noopener noreferrer"><img src="./media/linkedin.png" alt="LinkedIn"></a></li>
+					<li><a href="mailto:max.fullmer@outlook.com" target="_blank" rel="noopener noreferrer"><img src="./media/email_black.png" alt="Email"></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="slide-here"></div>
+
+		<main>
+			<h2>Portfolio</h2>
+
+			<section class="container">
+				<div class="carousel">
+					<div class="carousel-prev"></div>
+					<div class="carousel-next"></div>
+					<ul class="carousel-pagination">
+						<li class="carousel-bullet"></li>
+						<li class="carousel-bullet"></li>
+						<li class="carousel-bullet"></li>
+						<li class="carousel-bullet"></li>
+					</ul>
+					<ul class="carousel-container">
+						<a target="_blank" href="https://acoustisea.com/">
+						<li class="carousel-item">
+							<h3>Acoustisea</h3>
+							<p>Public repository for sharing underwater acoustic data files.</p>
+							<div class="item-1"></div>
+						</li>
+						</a>
+
+						<li class="carousel-item">
+							<h3>EventHub</h3>
+							<p>
+								Event browser filtered by location and date.
+								<br>
+								Estimated Completion Date: 09/06/2019
+								</p>
+							<div class="item-2">TBA</div>
+						</li>
+
+						<a target="_blank" href="https://today.uri.edu/news/uri-students-develop-acoustic-device-to-detect-whales-near-offshore-wind-farm/">
+							<li class="carousel-item">
+							<h3>MARIMBA</h3>
+							<p>
+								Marine Mammal Monitoring at Block Island using Acoustics.
+								<br>
+								Senior Capstone Project - Ocean Engineering.
+							</p>
+							<div class="item-3"></div>
+						</li></a>
+
+						<li class="carousel-item">
+							<h3>Cetacean Cove</h3>
+							<p>
+								Educational site on cetaceans.
+							</p>
+							<div class="item-4">TBA</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="./main.js"></script>
+	</body>
+</html>
