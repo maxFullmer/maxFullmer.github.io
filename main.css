@@ -44,7 +44,7 @@ header {
     font-size: 1.2em;
 }
 
-#about div {
+#about #profile-shot {
     background: url("./media/signal-2019-04-19-095051.jpg");
     height: 128px;
     width: 128px;
