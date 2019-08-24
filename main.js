@@ -49,6 +49,7 @@ function sticktothetop() {
         $('#stick-here').height(0);
     }
 }
+
 $(function() {
     $(window).scroll(sticktothetop);
     sticktothetop();
