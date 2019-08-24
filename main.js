@@ -42,10 +42,10 @@ function sticktothetop() {
     var window_top = $(window).scrollTop();
     var top = $('#stick-here').offset().top;
     if (window_top > top) {
-        $('#navbar').addClass('stick');
-        $('#stick-here').height($('#navbar').outerHeight());
+        $('#nav-ul').addClass('stick');
+        $('#stick-here').height($('#nav-ul').outerHeight());
     } else {
-        $('#navbar').removeClass('stick');
+        $('#nav-ul').removeClass('stick');
         $('#stick-here').height(0);
     }
 }
@@ -53,13 +53,6 @@ $(function() {
     $(window).scroll(sticktothetop);
     sticktothetop();
 });
-
-//scroll to Portfolio
-// $('#slide-down').click(function() {
-//     $([document.documentElement, document.body]).animate({
-//         scrollTop: $("#slide-here").offset().top
-//     }, 1000);
-// });
 
 function goToPortfolio() {
     let portfolio = document.getElementById("slide-here");

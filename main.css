@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 50% 0%;
+    background-position: 50% 50%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
@@ -58,13 +58,16 @@ header {
     opacity: 0.7;
 }
 
-#navbar > ul {
+/* #navbar > ul {
     height: 15vh;
     width: 100%;
     padding: 5px;
-}
+} */
 
 #nav-ul {
+    height: 15vh;
+    width: 100%;
+    padding: 5px;
     background: blanchedalmond;
     display: flex;
     flex-direction: row;
@@ -79,9 +82,10 @@ main {
     height: 100vh;
     margin-top: 20vh;
 }
-#navbar.stick {
+
+#nav-ul.stick {
     position: fixed;
-    top: 15vh;
+    top: 0;
     width: 100%;
     z-index: 10;
 }
