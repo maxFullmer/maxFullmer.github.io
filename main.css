@@ -25,12 +25,11 @@ header {
 }
 
 #about {
-    height: 85vh;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10vh;
 }
 
 #about h1 {
