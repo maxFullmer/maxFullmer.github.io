@@ -122,7 +122,10 @@ h2 {
 }
 
 .item-2 {
-    background-color: #B22222;
+    background-image: url('./media/EventHub.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .item-3 {
