@@ -114,15 +114,14 @@ h2 {
 }
 
 .item-1 {
-    /* background-image: url('./media/userAcoustisea.PNG'); */
+    background-image: url('./media/birdsongTablet.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 .item-2 {
-    /* background-image: url('./media/EventHub.png'); */
+    background-image: url('./media/dev-mountain-logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
