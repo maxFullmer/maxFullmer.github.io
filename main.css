@@ -135,7 +135,10 @@ h2 {
 }
 
 .item-4 {
-    background-color: #FFD700;
+    background-image: url('./media/MoteMarineLogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* .item-5 {
