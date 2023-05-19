@@ -113,6 +113,9 @@ h2 {
     margin-bottom: 10vh;
 }
 
+/* VVVVVVVVVVVVVVVVVVVVVVVVVVV */
+/* CHANGING PHOTOS IN CAROUSEL */
+/* VVVVVVVVVVVVVVVVVVVVVVVVVVV */
 .item-1 {
     background-image: url('./media/birdsongTablet.png');
     background-size: contain;
@@ -121,27 +124,48 @@ h2 {
 }
 
 .item-2 {
-    background-image: url('./media/dev-mountain-logo.png');
+    background-image: url('./media/MHS_logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .item-3 {
+    background-image: url('./media/HearUSA_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-4 {
+    background-image: url('./media/WSAudiology_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-5 {
     background-image: url('./media/Deploying-Buoy2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.item-4 {
+.item-6 {
     background-image: url('./media/MoteMarineLogo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/* .item-5 {
+.item-7 {
+    background-image: url('./media/dev-mountain-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .item-8 {
     background-color: #FF4500;
 } */
 
