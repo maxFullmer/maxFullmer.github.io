@@ -105,8 +105,8 @@ h2 {
 }
 
 .carousel-item > div {
-    height: 500px;
-    line-height: 500px;
+    height: 10px;
+    line-height: 10px;
     font-size: 1.5em;
     text-align: center;
     color: #fff;
@@ -122,16 +122,6 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/*
-.image-center {
-  display: block;
-  width: 50%;
-  height: 50%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-*/
 
 /*
 .item-2 {
