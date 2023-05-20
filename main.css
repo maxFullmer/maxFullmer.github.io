@@ -121,23 +121,16 @@ h2 {
     // background-image: url('./media/MHS_logo.png');
     // background-image: url('./media/HearUSA_logo.png');
     // background-image: url('./media/WSAudiology_logo2.png');
-    display: inline;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/*
 .image-center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
   width: 50%;
   height: 50%;
 }
-*/
 
 /*
 .item-2 {
