@@ -119,9 +119,9 @@ h2 {
 
 .item-1 {
     background-image: url('./media/MHS_logo.png'), url('./media/HearUSA_logo.png'), url('./media/WSAudiology_logo2.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain, contain, contain;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left, center, right;
 }
 
 .item-2 {
