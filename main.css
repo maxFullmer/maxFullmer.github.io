@@ -126,7 +126,7 @@ h2 {
     background-position: center;
 }
 
-.vertical-center {
+.vertical-center > img {
   margin: 0;
   position: absolute;
   top: 50%;
