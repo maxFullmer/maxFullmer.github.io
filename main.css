@@ -118,63 +118,41 @@ h2 {
 /* VVVVVVVVVVVVVVVVVVVVVVVVVVV */
 
 .item-1 {
-    background-image: url('./media/MHS_logo.png');
-    // background-image: url('./media/HearUSA_logo.png');
-    // background-image: url('./media/WSAudiology_logo2.png');
+    background-image: url('./media/MHS_logo.png'), url('./media/HearUSA_logo.png'), url('./media/WSAudiology_logo2.png');
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left, center, right;
 }
 
-/*
 .item-2 {
-    // background-image: url('./media/MHS_logo.png');
-    background-image: url('./media/HearUSA_logo.png');
-    // background-image: url('./media/WSAudiology_logo2.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.item-3 {
-    // background-image: url('./media/MHS_logo.png');
-    // background-image: url('./media/HearUSA_logo.png');
-    background-image: url('./media/WSAudiology_logo2.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-*/
-
-.item-4 {
     background-image: url('./media/birdsongTablet.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.item-5 {
+.item-3 {
     background-image: url('./media/Deploying-Buoy2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.item-6 {
+.item-4 {
     background-image: url('./media/MoteMarineLogo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.item-7 {
+.item-5 {
     background-image: url('./media/dev-mountain-logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/* .item-8 {
+/* .item-6 {
     background-color: #FF4500;
 } */
 
