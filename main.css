@@ -126,6 +126,14 @@ h2 {
     background-position: center;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 /*
 .item-2 {
     // background-image: url('./media/MHS_logo.png');
