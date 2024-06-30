@@ -43,8 +43,12 @@ header {
     font-size: 1.2em;
 }
 
+/* VVVVVVVVVVVVVVVVVVVVVVVVVVV */
+/* CHANGE PROFILE PICTURE */
+/* VVVVVVVVVVVVVVVVVVVVVVVVVVV */
+
 #about #profile-shot {
-    background: url("./media/professionalPolo.jpg");
+    background: url("./media/ProfessionalPoloEdited.jpg");
     height: 128px;
     width: 128px;
     background-size: cover;
