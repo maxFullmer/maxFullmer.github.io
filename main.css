@@ -55,7 +55,7 @@ header {
     background-repeat: no-repeat;
     border-radius: 50%;
     border: solid 2px grey;
-    transform: rotate(2.5deg) scale(1); 
+    /* transform: rotate(2.5deg) scale(1); */ 
 }
 
 #slide-down:hover {
